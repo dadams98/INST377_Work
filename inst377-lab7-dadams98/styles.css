@@ -1,0 +1,17 @@
+.loading-text {
+    display: none;
+    text-align: start;
+    margin-top: 20px;
+  }
+  .book-table {
+    display: none;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .book-table th, .book-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  

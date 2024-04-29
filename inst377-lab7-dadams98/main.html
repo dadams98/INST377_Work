@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Let's Lookup some Books</h1>
+  <form id="search-form">
+    <label for="book-input"><h3>Please enter a book name:</h3></label>
+    <input type="text" id="book-input" placeholder="Enter here">
+    <button type="submit">Search</button>
+  </form>
+  <div class="loading-text"><h2>Please wait while we load the books</h2></div>
+  <table class="book-table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tbody id="book-table-body"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>

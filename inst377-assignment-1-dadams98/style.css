@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: grey;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: rgb(112, 199, 226);
+  }
+    
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .main-section {
+    width: 60%;
+    border: 1px solid #000;
+  }
+
+  .main-content {
+    float:left;
+  }
+
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #sidebar {
+    float: left;
+    width: 200px;
+    padding: 20px;
+  }
+  
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%
+  }
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%
+  }
+  
+  #left-box,
+  #right-box {
+    float:inline-start;
+    text-align: center;
+    width: 46%;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  #left-box h2,
+  #right-box h2 {
+    margin-top: 0;
+  }
+  
+  #left-box p,
+  #right-box p {
+    font-weight: bold;
+  }
+  
+  .alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+  #concern{
+    height: 100px;
+    width: 200px;
+  }
+  .container {
+    display: flex;
+    border: 1px solid black;
+  }
+
+  .main-section {
+    flex: 6;
+    border-right: 1px solid black;
+    padding: 20px;
+  }
+
+  .sidebar {
+    flex: 2;
+    padding: 20px;
+  }
+  .contact-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-button:hover {
+    background-color: #0056b3;
+  }

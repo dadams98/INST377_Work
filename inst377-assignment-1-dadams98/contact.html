@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 1 - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form onsubmit="return validateText()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <label for="Date">Date:</label>
+    <input type="date" id="Date" name="date" required>
+    <label for="concern">Concern:</label>
+    <textarea id="concern" name="concern" required></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+

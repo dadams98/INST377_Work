@@ -1,0 +1,40 @@
+<html>
+    <head> 
+        <title>Lab2 Form</title>
+        <style>
+            body {
+                background-color: rgb(59, 59, 59);
+            }
+            .buttonMod{
+                margin-top: 10px;
+                margin-left: 200px;
+                background-color:grey;
+                color: ivory;
+            }
+            .buttonMod:hover{
+                color: red;
+            }
+            .textMod{
+                margin-top: 20;
+                margin-left: 10;
+                font-size: large;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style = color:ivory;>INST377 Lab Registration Form</h1>
+        <hr>
+        <form name="lab2Form" method="get" action="FormSuccess.html">
+            <div class="textMod">
+                <label for="studentId" style = color:ivory;>StudentId: </label> 
+                <input type="text" id="studentId" required>
+                <br>
+
+                <label for="password" style = color:ivory;>Password: </label>
+                <input type="text" id="password" required>
+                <br>
+            </div>
+            <input type="submit" value="Confirm" class="buttonMod">
+        </form>
+    </body>
+</html>

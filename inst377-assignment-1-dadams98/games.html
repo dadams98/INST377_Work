@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assignment 1 - Games</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Games</h1>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <h1>Rock, Paper, Scissors</h1>
+
+
+  <div id="main-content">
+    <form onsubmit="playGame(); return false;">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="choice">Your Choice:</label>
+      <select id="choice" name="choice">
+        <option value="rock">Rock</option>
+        <option value="paper">Paper</option>
+        <option value="scissors">Scissors</option>
+      </select>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  <div id="left-box" style="border: 1px solid black;">
+    <h2>You Chose:</h2>
+    <p id="user-choice"></p>
+  </div>
+
+  <div id="right-box" style="border: 1px solid black;">
+    <h2>Computer Chose:</h2>
+    <p id="computer-choice"></p>
+  </div>
+ <div class="footer">
+  <footer>
+    <p>Copyright of dadams98</p>
+  </footer>
+ </div>
+  
+  
+</body>
+</html>
